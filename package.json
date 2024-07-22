@@ -1,0 +1,25 @@
+{
+  "name": "webframework",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun --hot index.ts",
+    "artisan": "bun run ./core/cli/index.ts"
+  },
+  "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72",
+  "dependencies": {
+    "@types/ejs": "^3.1.5",
+    "@types/pg": "^8.11.6",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "kysely": "^0.27.4",
+    "mysql2": "^3.10.2",
+    "pg": "^8.12.0"
+  }
+}
