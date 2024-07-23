@@ -36,7 +36,7 @@ export default class Model{
         return this.db.conn().execute(callback);
     }
 
-    static JOIN(onTable: any, onColumn: string, against: string = 'id'){
+    static JOIN(onTable: any, onColumn: string = 'id', against: string){
         // console.log(onTable.tableName, `${onTable.tableName}.${onColumn}`, `${this.tableName}.${against}`);
         return this.GET().innerJoin(onTable.tableName, `${onTable.tableName}.${onColumn}`, `${this.tableName}.${against}`);
     }
