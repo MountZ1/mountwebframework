@@ -5,9 +5,12 @@
 # Documentation
 - [Getting Started](#getting-started)
 - [Basic](#basic)
-- [Routing](#routing)
-- [Database Query](#database-query)
-- [File generated](#file-generated)
+  - [Handler](#handler)
+  - [Controller](#controller)
+  - [Database](#database)
+  - [Model](#model)
+  - [Query Builder](#query-builder)
+  - [Middleware](#middleware)
 
 
 ## Getting Started
