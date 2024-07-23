@@ -260,7 +260,8 @@ This project is inspired by the Laravel framework. The folder structure and some
         res.json(await contacts);
   }
   ```
-  for more information you may want to check [this](https://kysely.dev/docs/category/examples)
+
+  for more information about query builder you may want to check [this](https://kysely.dev/docs/category/examples)
 
 ### Middleware
 for using middleware you just need to wrap the controller in you custom middleware
