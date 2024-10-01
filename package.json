@@ -9,8 +9,9 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "build": "bun run build",
-    "start": "bun run index.ts",
+    "dev": "bun run index.ts",
+    "build": "bun build ./index.ts --outdir ./dist",
+    "start": "bun run ./dist/index.js",
     "artisan": "bun run ./core/cli/index.ts"
   },
   "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72",
