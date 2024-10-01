@@ -1,0 +1,12 @@
+{
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/router/api.ts" },
+    { "src": "/(.*)", "dest": "/router/web.ts" }
+  ],
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@vercel/node"
+    }
+  ]
+}
