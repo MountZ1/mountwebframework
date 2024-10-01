@@ -9,7 +9,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
-    "buid": "bun run build",
+    "build": "bun run build",
     "start": "bun run index.ts",
     "artisan": "bun run ./core/cli/index.ts"
   },
