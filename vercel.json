@@ -1,0 +1,18 @@
+{
+  "buildCommand": "bun run build",
+  "outputDirectory": "dist",
+  "devCommand": "bun run dev",
+  "installCommand": "bun install",
+  "builds": [
+    {
+      "src": "index.ts",
+      "use": "@vercel/node-bridge"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.ts"
+    }
+  ]
+}
