@@ -6,7 +6,7 @@
   "builds": [
     {
       "src": "index.ts",
-      "use": "@vercel/node-bridge"
+      "use": "@vercel/bun"
     }
   ],
   "routes": [
