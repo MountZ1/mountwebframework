@@ -1,4 +1,4 @@
-import { Mountz } from "./core/";
+import { Mountz } from "./core";
 
 console.log('Server is running on http://localhost:3000');
 /**
