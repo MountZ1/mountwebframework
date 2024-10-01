@@ -1,12 +1,18 @@
 {
-  "routes": [
-    { "src": "/api/(.*)", "dest": "/router/api.ts" },
-    { "src": "/(.*)", "dest": "/router/web.ts" }
-  ],
+  "buildCommand": "bun run build",
+  "outputDirectory": "dist",
+  "devCommand": "bun run dev",
+  "installCommand": "bun install",
   "builds": [
     {
       "src": "index.ts",
-      "use": "@vercel/bun"
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.ts"
     }
   ]
 }
