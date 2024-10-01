@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
+    "buid": "bun run build",
     "dev": "bun --hot index.ts",
     "artisan": "bun run ./core/cli/index.ts"
   },
