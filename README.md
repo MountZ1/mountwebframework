@@ -1,7 +1,5 @@
 <h1 align="center">WebFramework</h1>
 
-> I make this code only for fun and i am not planning to maintenance it
-
 # Documentation
 - [Getting Started](#getting-started)
 - [Basic](#basic)
